@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adrian Curammeng">
+    <title>Home | Adrian's Dabbles</title>
+    <link rel="shortcut icon" href="../images/logo500.svg" type="image/x-icon">
+    <!-- Styling and Scripts -->
+    <link rel="stylesheet" href="../style.css">
+    <script src="../scripts/main.js" defer></script>
+</head>
+<body>
+
+    <!-- REFERENCES:
+    https://www.hunker.com/12003997/creative-ways-to-shorten-long-curtains
+    https://lizzydesignsblog.com/two-ways-to-hem-curtains-without-sewing/ -->
+
+    <!-- Sidebar -->
+    <div class="content" id="nav-bar">
+        <div id="nav-bar-icon">
+            <img 
+            src="../images/logo500.svg" 
+            alt="Website Logo"
+            style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div class="content" id="nav-buttons">
+            <ul>
+                <li class="nav-button"><a href="#">Home</a></li>
+                <li class="nav-button" id="about"><a href="#">About</a></li>
+            </ul>
+        </div>
+        <input type="text" placeholder="Search.." id="search-bar">
+        <button id="search-button">
+            <img src="../images/search-icon100.svg" alt="A search icon." style="width: 60%; height: 60%;">
+        </button>
+    </div>
+
+    <div class="content" id="content-page">
+        <div id="placeholder-image">
+            <img src="../images/home-coverimage.png" alt="A snowy scene.">
+        </div>
+        <div class="content" id="home-title">
+            <h1 id="home-heading">Recent Blogs</h1>
+            <p>My recent blogs. Sorted by date. [WORK IN PROGRESS]</p>
+        </div>
+        <div class="page-content" id="blogs">
+            <div class="row-content">
+                <div class="home-blogs">
+                    <!-- 280x400px -->
+                    <img src="../images/home-blog1-cover.png" alt="Cover Image for Blog 001" class="home-blogs-image">
+                    <div class="home-blogs-overlay">
+                        <p style="margin-top: 20px;">My name is Adrian Curammeng, and this is my blog.</p>
+                        <a href="blog-pages/blog1.html"><button class="read-more">Read more</button></a>
+                    </div>
+                    <h3>001</h3>
+                </div>
+                <div class="home-blogs">
+                    <div class="home-blogs-overlay"></div>
+                </div>
+                <div class="home-blogs">
+                    <div class="home-blogs-overlay"></div>
+                </div>
+                <div class="home-blogs">
+                    <div class="home-blogs-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div id="footer-icon">
+            <img 
+            src="../images/logo500.svg" 
+            alt="Website Logo"
+            style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <p>Copyright &#169; 2023 Adrian Curammeng</p>
+        <div id="footer-links">
+            <a href="https://raw.githubusercontent.com/AdrianCurammeng/comtech-blog-website/main/LICENSE" target="_blank" class="footer-link">License</a>
+            <a href="https://github.com/AdrianCurammeng/comtech-blog-website" target="_blank" class="footer-link">Github</a>
+        </div>
+        <div id="footer-social-media">
+            <a href="https://github.com/AdrianCurammeng" target="_blank">
+                <img src="../images/github-logogray.svg" alt="Github logo" class="social-media-icons">
+            </a>
+            <a href="https://www.instagram.com/adr_vin_cur/" target="_blank">
+                <img src="../images/instagram-logogray.svg" alt="Instagram logo" class="social-media-icons">
+            </a>
+        </div>
+    </div>
+    <!-- Comment -->
+</body>
+</html>

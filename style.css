@@ -1,0 +1,351 @@
+/* Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Karla);
+@import url(https://fonts.googleapis.com/css?family=Manrope);
+@import url(https://fonts.googleapis.com/css?family=Mukta);
+
+/* General Stylings */
+
+html {
+    font-family: "Karla", Arial;
+    color: white;
+    background-color: rgb(12, 12, 12);
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Manrope", Arial;
+}
+
+h2 {
+    font-family: "Manrope", Arial;
+    margin: 30px 0 10px 0;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 14px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 2em;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.text-content a {
+    color: rgb(12, 89, 189);
+    text-decoration: none;
+}
+
+.text-content a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+}
+
+.blog-page-content {
+    display: flex;
+    flex-direction: row;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+    margin-bottom: 50px;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Top Navigation Bar */
+
+#nav-bar {
+    align-items: center;
+    height: 80px;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 0 100px 0 100px;
+    background-color: rgb(15, 15, 15);
+    z-index: 9;
+}
+
+#nav-buttons {
+    justify-content: center;
+}
+
+.nav-button {
+    display: inline-block;
+    width: 50px;
+    list-style: none;
+    margin: 0 50px 0 0px;
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1em;
+    background-color: transparent;
+    border: none;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+    color: rgb(200, 200, 200);
+}
+
+#nav-bar-icon {
+    display: block;
+    width: 80px;
+    height: 100%;
+}
+
+#search-button {
+    background-color: transparent;
+    border: none; 
+    cursor: pointer;
+    width: 50px;
+}
+
+#search-bar {
+    padding-left: 10px;
+    margin-right: 10px;
+    font-family: "Karla";
+    margin-left: 600px;
+    height: 30px;
+    background-color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+/* Home Page */
+
+#content-page {
+    flex-direction: column;
+    height: auto;
+}
+
+#placeholder-image {
+    display: block;
+    width: 100vw;
+    height: 510px;
+}
+
+#home-title {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 50px 0;
+}
+
+#home-title h1::after {
+    display: block;
+    margin: 10px 0 0 50px;
+    content: "";
+    background-color: rgb(10, 43, 80);
+    height: 4px;
+    width: 100px;
+}
+
+#home-heading {
+    font-size: 2.5em;
+}
+
+#blogs {
+    margin: 0 100px 100px 100px
+}
+
+.home-blogs {
+    display: block;
+    width: 280px;
+    height: 400px;
+    background-color: rgb(12, 12, 12);
+    position: relative;
+}
+
+.home-blogs-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.0);
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+
+.home-blogs-overlay:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.home-blogs p {
+    padding: 0 20px 0 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.home-blogs-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.read-more {
+    font-family: "Karla", arial;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    border: none;
+    background-color: rgb(4, 8, 63);
+}
+
+.read-more:hover {
+    background-color: rgb(11, 16, 78);
+    cursor: pointer;
+}
+
+/* Blog Pages */
+
+.blog-section {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: auto;
+    margin-right: 50px;
+}
+
+.side-section {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: auto;
+}
+
+.blog-title {
+    flex-direction: column;
+    align-items: right;
+}
+
+.blog-heading {
+    font-size: 4.5em;
+    margin: 15px 0 15px 0;
+}
+
+.blog-heading::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 150px;
+    background-image: linear-gradient(to right, rgb(13, 7, 85), rgb(63, 6, 75));
+    margin-top: 10px;
+}
+
+.sub-heading {
+    margin-top: 80px;
+    color: rgb(180, 180, 180);
+}
+
+.date {
+    color: rgb(180, 180, 180);
+}
+
+.blog-placeholder-image {
+    display: block;
+    margin: 10px 0 30px 0;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+}
+
+.blog-image300 {
+    display: block;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+}
+
+.first-word {
+    font-family: "Mukta", Arial;
+    font-size: 2.5em;
+}
+
+.external-link::after {
+    content: "";
+    background-image: url(images/external-link16.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 2px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+}
+
+.footer p {
+    margin: 0;
+    font-size: 12px;
+    color: rgb(150, 150, 150);
+}
+
+.footer-link {
+    margin: 8px 10px 0 0;
+    font-size: 12px;
+    text-decoration: underline;
+    color: rgb(150, 150, 150);
+}
+
+#footer-icon {
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+#footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-media-icons {
+    width: 25px; 
+    height: 25px;
+    margin-right: 10px;
+}

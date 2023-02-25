@@ -1,1 +1,2 @@
-# comtech-blog-website
+# TGJ4M1-Blog-Project
+
