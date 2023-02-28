@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.3026915"
-     inkscape:cx="242.95853"
-     inkscape:cy="323.9447"
+     inkscape:zoom="0.92114199"
+     inkscape:cx="193.23839"
+     inkscape:cy="250.77567"
      inkscape:window-width="1366"
      inkscape:window-height="697"
      inkscape:window-x="-8"
@@ -39,6 +39,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#0f0f0f;fill-opacity:1;stroke:none;stroke-width:3.96875;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect3088"
+       width="132.29167"
+       height="132.29167"
+       x="0"
+       y="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:132.081px;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:3.08189;paint-order:stroke fill markers"
