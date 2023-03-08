@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="images/logo500.svg" type="image/x-icon">
     <!-- Styling and Scripts -->
     <link rel="stylesheet" href="style.css">
-    <script src="../scripts/main.js" defer></script>
+    <script src="scripts/main.js" defer></script>
 </head>
 <body>
 
@@ -28,7 +28,7 @@
         <div class="content" id="nav-buttons">
             <ul>
                 <li class="nav-button"><a href="#">Home</a></li>
-                <li class="nav-button" id="about"><a href="#">About</a></li>
+                <li class="nav-button" id="about"><a href="pages/about.html">About</a></li>
             </ul>
         </div>
         <input type="text" placeholder="Search.." id="search-bar">
@@ -43,10 +43,19 @@
         </div>
         <div class="content" id="home-title">
             <h1 id="home-heading">Recent Blogs</h1>
-            <p>My recent blogs. Sorted by date. [WORK IN PROGRESS]</p>
+            <p>My recent blogs. Sorted by date.</p>
         </div>
         <div class="page-content" id="blogs">
             <div class="row-content">
+                <div class="home-blogs">
+                    <!-- 280x400 -->
+                    <img src="images/home-blog4-cover.png" alt="Cover Image for Blog 003" class="home-blogs-image">
+                    <div class="home-blogs-overlay">
+                        <p style="margin-top: 20px;">A quick update for the blog!</p>
+                        <a href="pages/blog4.html"><button class="read-more">Read more</button></a>
+                    </div>
+                    <h3>004</h3>
+                </div>
                 <div class="home-blogs">
                     <!-- 280x400 -->
                     <img src="images/home-blog3-cover.png" alt="Cover Image for Blog 003" class="home-blogs-image">
@@ -74,9 +83,6 @@
                     </div>
                     <h3>001</h3>
                 </div>
-                <div class="home-blogs">
-                    <!-- <div class="home-blogs-overlay"></div>  -->
-                </div>
             </div>
         </div>
     </div>
@@ -102,6 +108,6 @@
             </a>
         </div>
     </div>
-    <!-- Comment -->
+    
 </body>
 </html>
