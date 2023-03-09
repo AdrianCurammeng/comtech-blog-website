@@ -1,0 +1,4 @@
+TO DO:
+- Make Light Mode
+- Create/Delete Search Function
+- Update About Page
